@@ -1,0 +1,98 @@
+/*
+    Template Name    : Tona - Personal Porfolio Landing Page Template
+    Author           : AvailableCoder
+    Version          : 1.0
+    Created          : 2021
+    File Description : Responsive css file of the template
+*/
+
+/* Small */
+@media (min-width: 768px) {
+    .contact .contact-field .contact-info-field {
+        border-right: 1px solid var(--main-color);
+    }
+}
+@media (max-width: 576px) {
+    .home .home-text p.name {
+        font-size: 30px;
+    }
+    .home .home-text h1 {
+        font-size: 35px !important;
+    }
+    .resume .resume-field .resume-content {
+        padding-left: 0;
+    }
+    .resume .resume-field .resume-content::before,
+    .resume .resume-field .resume-content .res-text::before,
+    .resume .resume-field .resume-content .res-text span.res-circle {
+        display: none;
+    }
+    .resume .resume-field .resume-content .res-head {
+        margin-left: 0;
+    }
+    .reviews .review-field .review-swiper-text .swiper-pagination {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .main-heading h2 {
+        font-size: 60px !important;
+        line-height: 60px !important;
+    }
+    .home .home-text h1 {
+        font-size: 45px;
+    }
+    .about .container .image {
+        margin-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    .about .container .image::before,
+    .about .container .image::after {
+        display: none;
+    }
+    .counter {
+        border-radius: 0;
+    }
+    .modal .modal-dialog .modal-content {
+        padding: 10px;
+    }
+    .modal .modal-dialog .modal-content p {
+        font-size: 14px;
+    }
+    .modal .modal-dialog .modal-content q {
+        font-size: 15px !important;
+    }
+}
+/* Medium */
+@media (min-width: 992px) {
+
+}
+@media (max-width: 991px) {
+    .main-heading h2 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    header nav ul li a.nav-link:before {
+        display: none;
+    }
+    header nav .ul-cont ul {
+        max-height: 70vh;
+        overflow: auto;
+    }
+    .about .about-content .about-info ul li {
+        flex-basis: 100%;
+    }
+    .reviews .review-field .review-swiper-image {
+        display: none;
+    }
+    .reviews .review-field .review-swiper-text .client-info .review-head img.text-slider-image {
+        display: block;
+    }
+    
+}
+/* Large */
+@media (min-width: 1200px) {
+
+}
